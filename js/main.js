@@ -21,7 +21,7 @@ numbers.forEach((li) => {
 // Submit Btn Event
 subBtn.addEventListener("click", () => {
   boxModal.classList.add("thank")
-  boxModal.innerHTML = `<img src = '../images/illustration-thank-you.svg' />
+  boxModal.innerHTML = `<img src = './images/illustration-thank-you.svg' />
   <h4>You Selected ${chosenNumber} out of ${numbers.length}</h4>
   <h3>Thank You!</h3>
   <p>We appreciate you takeing the time to give a rating if you ever need more support, don't hesitate to get in touch </p>
